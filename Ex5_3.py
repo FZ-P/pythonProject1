@@ -22,3 +22,4 @@ def check_prime():
 # Run the prime checker
 if __name__ == "__main__":
     check_prime()
+
