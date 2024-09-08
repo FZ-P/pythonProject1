@@ -19,9 +19,10 @@ def main():
 
     if price_per_sqm1 < price_per_sqm2:
         print("The first pizza offers better value for money.")
-    else:
+    elif price_per_sqm2 < price_per_sqm1:
         print("The second pizza offers better value for money.")
-
+    else:
+        print("Both offer the same value.")
 
 # Call main function
 if __name__ == "__main__":
